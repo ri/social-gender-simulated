@@ -1,0 +1,20 @@
+@import 'mixins';
+@import 'variables';
+
+h1 {font-size: $type1;}
+h2 {font-size: $type2;}
+h3 {font-size: $type3;}
+h4 {font-size: $type4;}	
+body {
+	font-family: $type;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
